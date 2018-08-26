@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Contact = () => {
+const Contact = (props) => { //router automatically adds in props
+    //console.log(props);
+    // setTimeout(() => {
+    //     props.history.push('about')
+    // }, 2000); // this is programmatic redirect
     return(
         <div className="container">
             <h4 className="center">Contact</h4> //typing "lorem" creates the sample text
